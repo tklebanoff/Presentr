@@ -187,6 +187,7 @@ public class AlertViewController: UIViewController, CornerRadiusSettable {
 	}
 
 	private func setupContainerView() {
+        containerView.backgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.7)
 		containerView.clipsToBounds = true
 	}
 
